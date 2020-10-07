@@ -10,28 +10,49 @@ body{
 
 header{
   border-bottom: 1px solid white;
+  margin-top: 20px;
 }
 
 .gmail{
   display: inline-block;
 }
 
+.inputunread{
+  border-bottom: 1px solid white;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
 .unread{
   background-color: orange;
   border-radius: 50%;
-  padding: 5px;
+  padding: 10px;
+}
+
+.rigaread{
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+.rigaunread{
+  background-color: white;
+  border: 1px solid black;
 }
 
 .riga-sinistra{
   display: inline-block;
-  width: 30%;
+  width: 17%;
+  color: black;
 }
 
 .riga-destra{
   display: inline-block;
-  width: 68%;
+  width: 82%;
+  color: grey;
 }
 
-.riga{
-  background-color: grey;
+.credits{
+  border-top: 1px solid white;
+  margin-top: 5px;
+  text-align: center;
 }

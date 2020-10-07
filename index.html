@@ -9,7 +9,7 @@
     <header>
 
       <!-- logo e testo -->
-      <img src="img/gmail_logo.png">
+      <img src="img/gmail_logo.png" align="middle" alt="logo di gmail">
       <div class="gmail">
         <h2>Gmail</h2>
       </div>
@@ -18,24 +18,55 @@
 
     <main>
 
-      <section>
+      <section class="inputunread">
         <!-- Input e testo unread -->
         <input type="text" name="search" placeholder="Search" value="">
         <button type="button"> VAI </button>
         <h2>You have <span class="unread">30</span> unread</h2>
       </section>
 
-      <section>
+      <section class="list">
         <!-- lista email -->
-        <div class="riga">
+        <div class="rigaread">
           <div class="riga-sinistra">
             <input type="checkbox">
-            <span>&starf; Oggetto della mail</span>
+            <span>&starf; <strong>Oggetto della mail</strong></span>
           </div>
           <div class="riga-destra">
-            <span>testo della e-mail..</span>
+            <span>- testo della e-mail...</span>
           </div>
         </div>
+
+        <div class="rigaunread">
+          <div class="riga-sinistra">
+            <input type="checkbox">
+            <span>&starf; <strong>Oggetto della mail</strong></span>
+          </div>
+          <div class="riga-destra">
+            <span>- testo della e-mail...</span>
+          </div>
+        </div>
+
+        <div class="rigaread">
+          <div class="riga-sinistra">
+            <input type="checkbox">
+            <span>&starf; <strong>Oggetto della mail</strong></span>
+          </div>
+          <div class="riga-destra">
+            <span>- testo della e-mail...</span>
+          </div>
+        </div>
+
+        <div class="rigaread">
+          <div class="riga-sinistra">
+            <input type="checkbox">
+            <span>&starf; <strong>Oggetto della mail</strong></span>
+          </div>
+          <div class="riga-destra">
+            <span>- testo della e-mail...</span>
+          </div>
+        </div>
+
       </section>
 
     </main>
@@ -43,6 +74,9 @@
     <footer>
 
       <!-- crediti pagina -->
+      <div class="credits">
+        <h3>GMail <em>powered by Raffaele</em></h3>
+      </div>
 
     </footer>
 
