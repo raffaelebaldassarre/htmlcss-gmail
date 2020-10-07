@@ -1,0 +1,37 @@
+html{
+  background-image: url(../img/sfondo.jpg);
+}
+
+body{
+  width: 1000px;
+  margin: auto;
+  color: white;
+}
+
+header{
+  border-bottom: 1px solid white;
+}
+
+.gmail{
+  display: inline-block;
+}
+
+.unread{
+  background-color: orange;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.riga-sinistra{
+  display: inline-block;
+  width: 30%;
+}
+
+.riga-destra{
+  display: inline-block;
+  width: 68%;
+}
+
+.riga{
+  background-color: grey;
+}
